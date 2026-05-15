@@ -1,7 +1,9 @@
-Comment Sentiment Analysis
+## Comment Sentiment Analysis
+
 This repository contains a robust machine learning pipeline developed for a Kaggle competition focused on predicting the sentiment categories of public comments. The solution successfully classifies high-dimensional text data and metadata while strictly adhering to project constraints that prohibited the use of external NLP libraries like NLTK.
 
 🚀 Project Overview
+
 The objective was to accurately predict the sentiment label of comments based on textual content and associated features such as upvotes, downvotes, and emoticons.
 
 Key Highlights:
@@ -13,6 +15,7 @@ Data Integrity: Executed the train-test split prior to TF-IDF vectorization to e
 Library Constraints: Handled all text cleaning, tokenization, and vectorization using only core pandas and scikit-learn functionality.
 
 🛠️ Tech Stack
+
 Language: Python
 
 Data Processing & EDA: Pandas, NumPy, Matplotlib, Seaborn
